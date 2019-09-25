@@ -18,6 +18,6 @@ $sql = mysqli_query($connection, "SELECT * FROM idproduct");
 
 while($row = mysqli_fetch_array($sql)) {
     $boodschappen[] = $row['idproduct'];
-    
+
     echo 'idproduct';
 }
